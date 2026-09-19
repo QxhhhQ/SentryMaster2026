@@ -1,0 +1,5 @@
+/sentry_planner_node:
+  ros__parameters:    
+    test_param: 1
+
+    

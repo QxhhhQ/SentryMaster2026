@@ -1,0 +1,2 @@
+uint16 game_time
+uint8 sentry_posture

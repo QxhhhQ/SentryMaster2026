@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="sentry_chassis"
+  xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <link name="vehicle" />
+  <link name="odin1_base_link" />
+
+  <joint name="vehicle_to_odin" type="fixed">
+    <origin xyz="-0.17893 0.16797 -0.00451" rpy="3.14159 0 -1.5708" />
+    <parent link="odin1_base_link" />
+    <child link="vehicle" />
+    <axis xyz="0 0 0" />
+  </joint>
+</robot>

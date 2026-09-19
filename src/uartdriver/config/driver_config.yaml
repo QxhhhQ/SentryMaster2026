@@ -1,0 +1,7 @@
+/uart_driver_node:
+  ros__parameters:
+    serial_name: "/dev/ttyACM0"
+    serial_number: " "
+    baud_rate: 1000000
+    read_buffer_size: 60
+    possible_ids: [17, 22]
